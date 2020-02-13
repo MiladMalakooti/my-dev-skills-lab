@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    align-items: center;
+    margin: auto;
+}
+
+h3 {
+    background: #93c07e;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+p {
+    color: #FDAB49;
+    font-weight: bold;
+}
+
+input {
+    border-color: #93c07e;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    width: 300px
+
+}
+.container {
+    box-sizing: border-box;
+    width: 480px;
+    margin-top: 20vh;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.remove {
+    background: #DE6769;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.add {
+    border-color: #93c07e;
+    border-width: 3px;
+    padding: 10px;
+    color: #93c07e;
+    font-size: 15px;
+    font-weight: bold;
+    background: white;
+}
+
+.input-field {
+    display: flex;
+    justify-content: space-between;
+
+}
